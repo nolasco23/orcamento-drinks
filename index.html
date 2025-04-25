@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orçamento de Drinks</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="max-w-3xl mx-auto p-6">
+    <div class="flex items-center gap-4 mb-6">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" alt="Logo" class="w-12 h-12">
+      <h1 class="text-2xl font-bold">Monte seu Orçamento de Drinks 🍹</h1>
+    </div>
+
+    <div class="space-y-4">
+      <input type="text" id="nome" placeholder="Seu nome" class="w-full p-2 border rounded" />
+      <input type="text" id="whatsapp" placeholder="Seu WhatsApp" class="w-full p-2 border rounded" />
+      <input type="number" id="convidados" placeholder="Número de convidados" class="w-full p-2 border rounded" />
+
+      <h2 class="text-xl font-semibold mt-6 text-red-600">Drinks Alcoólicos</h2>
+
+      <h3 class="text-lg font-semibold mt-4">Caipivodka</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <label><input type="checkbox" value="Caipivodka de Limão"> Limão com Vodka</label>
+        <label><input type="checkbox" value="Caipivodka de Morango"> Morango com Vodka</label>
+        <label><input type="checkbox" value="Caipivodka de Abacaxi com Hortelã"> Abacaxi com Hortelã</label>
+        <label><input type="checkbox" value="Caipivodka de Melancia"> Melancia</label>
+        <label><input type="checkbox" value="Caipivodka de Kiwi"> Kiwi</label>
+      </div>
+
+      <h3 class="text-lg font-semibold mt-4">Caipirinha</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <label><input type="checkbox" value="Caipirinha"> Tradicional com Cachaça</label>
+      </div>
+
+      <h3 class="text-lg font-semibold mt-4">Gin</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <label><input type="checkbox" value="Gin Tônica"> Gin Tônica</label>
+        <label><input type="checkbox" value="Gin Tropical"> Gin Tropical</label>
+        <label><input type="checkbox" value="Gin Morango"> Gin Morango</label>
+        <label><input type="checkbox" value="Gin Laranja"> Gin Laranja</label>
+        <label><input type="checkbox" value="Gin Maçã Verde"> Gin Maçã Verde</label>
+      </div>
+
+      <h3 class="text-lg font-semibold mt-4">Moscow Mule</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <label><input type="checkbox" value="Moscow Mule"> Moscow Mule</label>
+      </div>
+
+      <h3 class="text-lg font-semibold mt-4">Demais Alcoólicos</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <label><input type="checkbox" value="Campari Tonic de Laranja"> Campari Tonic de Laranja</label>
+        <label><input type="checkbox" value="Sex on the Beach"> Sex on the Beach</label>
+        <label><input type="checkbox" value="Alexander"> Alexander</label>
+        <label><input type="checkbox" value="Blue Moon"> Blue Moon</label>
+        <label><input type="checkbox" value="Kioto"> Kioto</label>
+        <label><input type="checkbox" value="Bob Marley (Álcool)"> Bob Marley</label>
+        <label><input type="checkbox" value="Flamejante"> Flamejante</label>
+        <label><input type="checkbox" value="Mojito (Rum)"> Mojito</label>
+        <label><input type="checkbox" value="Pina Colada"> Pina Colada</label>
+        <label><input type="checkbox" value="Vermouth Tonic"> Vermouth Tonic</label>
+        <label><input type="checkbox" value="Stylos Orange"> Stylos Orange</label>
+        <label><input type="checkbox" value="Spritz"> Spritz</label>
+        <label><input type="checkbox" value="Margarita"> Margarita</label>
+        <label><input type="checkbox" value="Kentucky Mule"> Kentucky Mule</label>
+        <label><input type="checkbox" value="Jack&Coke"> Jack&Coke</label>
+        <label><input type="checkbox" value="Caldo de Mel"> Caldo de Mel</label>
+        <label><input type="checkbox" value="Mojito de Cerveja"> Mojito de Cerveja</label>
+        <label><input type="checkbox" value="Black and Tan"> Black and Tan</label>
+        <label><input type="checkbox" value="Negroni"> Negroni</label>
+        <label><input type="checkbox" value="Lagoa Azul"> Lagoa Azul</label>
+      </div>
+
+      <h2 class="text-xl font-semibold mt-6 text-blue-600">Drinks Não Alcoólicos</h2>
+
+      <h3 class="text-lg font-semibold mt-4">Mixes e Sodas</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <label><input type="checkbox" value="Mix de Frutas"> Mix de Frutas</label>
+        <label><input type="checkbox" value="Soda Italiana de Maçã Verde"> Soda Maçã Verde</label>
+        <label><input type="checkbox" value="Soda Italiana de Morango"> Soda Morango</label>
+        <label><input type="checkbox" value="Soda Italiana de Maracujá"> Soda Maracujá</label>
+        <label><input type="checkbox" value="Soda Italiana de Melancia"> Soda Melancia</label>
+        <label><input type="checkbox" value="Pina Descolada"> Pina Descolada</label>
+      </div>
+
+      <h3 class="text-lg font-semibold mt-4">Mojito e Bob Marley</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <label><input type="checkbox" value="Mojito (Sem álcool)"> Mojito (sem álcool)</label>
+        <label><input type="checkbox" value="Bob Marley (Sem Álcool)"> Bob Marley (sem álcool)</label>
+      </div>
+
+      <h3 class="text-lg font-semibold mt-4">Energético</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <label><input type="checkbox" value="Energético Comum"> Energético Comum</label>
+        <label><input type="checkbox" value="Energético Tropical"> Energético Tropical</label>
+      </div>
+
+      <h3 class="text-lg font-semibold mt-4">Outros Não Alcoólicos</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <label><input type="checkbox" value="Wall Street"> Wall Street</label>
+        <label><input type="checkbox" value="Citrux"> Citrux</label>
+        <label><input type="checkbox" value="Parafuso"> Parafuso</label>
+        <label><input type="checkbox" value="Afrodisíaco"> Afrodisíaco</label>
+        <label><input type="checkbox" value="Cozumel (Sem Álcool)"> Cozumel</label>
+        <label><input type="checkbox" value="Chocomenta"> Chocomenta</label>
+      </div>
+
+      <button onclick="enviarOrcamento()" class="bg-green-500 text-white px-4 py-2 rounded mt-6 hover:bg-green-600">Enviar pelo WhatsApp</button>
+    </div>
+  </div>
+
+  <script>
+    const NUMERO_WHATSAPP = '5528999246398';
+
+    function enviarOrcamento() {
+      const nome = document.getElementById('nome').value;
+      const whatsapp = document.getElementById('whatsapp').value;
+      const convidados = document.getElementById('convidados').value;
+
+      const selecionados = [
+        ...document.querySelectorAll('input[type=checkbox]:checked')
+      ].map(cb => cb.value);
+
+      const mensagem =
+        `Olá! Gostaria de um orçamento.\n` +
+        `Nome: ${nome}\n` +
+        `WhatsApp: ${whatsapp}\n` +
+        `Convidados: ${convidados}\n` +
+        `Drinks: ${selecionados.join(', ')}`;
+
+      const url = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(mensagem)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
